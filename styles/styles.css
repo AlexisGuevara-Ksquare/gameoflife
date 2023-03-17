@@ -1,15 +1,22 @@
 
-/* Stroke the grid */
-td {
-    border: rgba(0, 0, 0, 0.2) solid 1px;
+body {
+    background-color: rgb(235, 235, 213);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-header, #boardContainer, .btnContainer {
+/* Stroke the grid */
+td {
+    border: rgba(7, 115, 25, 0.2) solid 1px;
+}
+
+header, #boardContainer, .btnContainer, h2 {
     display: flex;
     justify-content: center;
 }
 
 .btn {
+    background: white;
+    border-radius: 6px;
     cursor: pointer;
 }
 
@@ -17,4 +24,5 @@ header, #boardContainer, .btnContainer {
 .btn:hover {
     background: black;
     color: white;
+    transition: 0.5s;
 }
