@@ -21,6 +21,8 @@ User Stories assignations
 | I can see the amount of generation has passed since the start of the game |    |   X   |
 | I can click a button that would set the game back to the initial state |    |   X   |
 
+
+
 # Live demo
 
 Please include here a link to your [live demo](https://alexisguevara-ksquare.github.io/gameoflife/)
